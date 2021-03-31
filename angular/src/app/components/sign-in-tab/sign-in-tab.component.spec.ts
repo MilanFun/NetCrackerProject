@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { SignInTabComponent } from './sign-in-tab.component';
+import {SignInTabComponent} from './sign-in-tab.component';
 
 describe('SignInTabComponent', () => {
   let component: SignInTabComponent;

@@ -1,9 +1,9 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {BaseService} from "../base-service/base.service";
 import {HttpClient} from "@angular/common/http";
 import {Tag} from "../../model/entity/tag";
 import {Observable} from "rxjs";
-import {catchError, tap} from "rxjs/operators";
+import {catchError} from "rxjs/operators";
 import {ErrorHandler} from "../error-handler";
 
 @Injectable({

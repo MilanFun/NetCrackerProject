@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { IncomingRequestsComponent } from './incoming-requests.component';
+import {IncomingRequestsComponent} from './incoming-requests.component';
 
 describe('IncomingRequestsComponent', () => {
   let component: IncomingRequestsComponent;

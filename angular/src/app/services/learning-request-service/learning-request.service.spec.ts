@@ -1,5 +1,5 @@
-import { TestBed } from '@angular/core/testing';
-import { LearningRequestService } from './learning-request.service';
+import {TestBed} from '@angular/core/testing';
+import {LearningRequestService} from './learning-request.service';
 
 describe('LearningRequestService', () => {
   let service: LearningRequestService;

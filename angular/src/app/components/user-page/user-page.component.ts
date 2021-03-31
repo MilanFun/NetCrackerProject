@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { User } from "../../model/entity/user";
-import { UserService } from "../../services/user-service/user.service";
-import { AppComponent} from "../app.component";
+import {Component, OnInit} from '@angular/core';
+import {User} from "../../model/entity/user";
+import {UserService} from "../../services/user-service/user.service";
+import {AppComponent} from "../app.component";
 import {ModalService} from "../../services/modal-service/modal.service";
 
 @Component({

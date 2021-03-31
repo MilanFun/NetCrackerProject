@@ -1,11 +1,10 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders, HttpResponse} from '@angular/common/http';
-import { User } from '../../model/entity/user';
+import {User} from '../../model/entity/user';
 import {BaseService} from "../base-service/base.service";
 import {Observable} from 'rxjs';
 import {catchError, tap} from 'rxjs/operators';
 import {ErrorHandler} from '../error-handler';
-import {AppComponent} from '../../components/app.component';
 
 @Injectable({
   providedIn: 'root'

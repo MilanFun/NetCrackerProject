@@ -1,10 +1,9 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {BaseService} from "../base-service/base.service";
 import {HttpClient} from "@angular/common/http";
 import {LearnRequest} from "../../model/entity/learn-request";
 import {LearnRequestBody} from "../../model/entity/learn-request-body";
 import {Observable} from "rxjs";
-import {Lesson} from "../../model/entity/lesson";
 import {catchError} from "rxjs/operators";
 import {ErrorHandler} from "../error-handler";
 

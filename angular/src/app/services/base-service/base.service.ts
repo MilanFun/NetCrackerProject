@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {Observable} from "rxjs";
-import { catchError, tap } from 'rxjs/operators';
+import {catchError, tap} from 'rxjs/operators';
 import {ErrorHandler} from "../error-handler";
 import {AppComponent} from '../../components/app.component';
 

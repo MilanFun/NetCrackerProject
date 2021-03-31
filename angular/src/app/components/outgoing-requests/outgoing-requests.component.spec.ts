@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { OutgoingRequestsComponent } from './outgoing-requests.component';
+import {OutgoingRequestsComponent} from './outgoing-requests.component';
 
 describe('OutgoingRequestsComponent', () => {
   let component: OutgoingRequestsComponent;

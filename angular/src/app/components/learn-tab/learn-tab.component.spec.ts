@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { LearnTabComponent } from './learn-tab.component';
+import {LearnTabComponent} from './learn-tab.component';
 
 describe('LearnTabComponent', () => {
   let component: LearnTabComponent;

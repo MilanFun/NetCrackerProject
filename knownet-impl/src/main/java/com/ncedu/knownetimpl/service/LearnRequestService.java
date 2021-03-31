@@ -1,10 +1,10 @@
 package com.ncedu.knownetimpl.service;
 
 import com.ncedu.knownetimpl.model.LearnRequestBody;
-import com.ncedu.knownetimpl.model.entity.Lesson;
-import com.ncedu.knownetimpl.model.entity.User;
 import com.ncedu.knownetimpl.model.entity.LearnRequest;
 import com.ncedu.knownetimpl.model.entity.LearnRequest.Status;
+import com.ncedu.knownetimpl.model.entity.Lesson;
+import com.ncedu.knownetimpl.model.entity.User;
 import com.ncedu.knownetimpl.repository.LearnRequestRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

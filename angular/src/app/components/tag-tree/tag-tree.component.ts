@@ -1,12 +1,8 @@
-import {Component, ViewChild, AfterViewInit, ViewEncapsulation, OnInit, SimpleChange} from '@angular/core';
-
-import {jqxTreeComponent} from 'jqwidgets-ng/jqxtree';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import {jqxTreeGridComponent} from 'jqwidgets-ng/jqxtreegrid';
 import {jqxMenuComponent} from 'jqwidgets-ng/jqxmenu';
 import {TagService} from "../../services/tag-service/tag.service";
 import {Tag} from "../../model/entity/tag";
-import {LearnRequestBody} from "../../model/entity/learn-request-body";
-import {AppComponent} from "../app.component";
 
 @Component({
   selector: 'app-tag-tree',

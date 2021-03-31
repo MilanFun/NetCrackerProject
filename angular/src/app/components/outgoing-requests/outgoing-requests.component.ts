@@ -8,7 +8,6 @@ import {LearnRequestBody} from "../../model/entity/learn-request-body";
 import {Status} from "../../model/entity/learn-request-status";
 import {User} from "../../model/entity/user";
 import {UserService} from "../../services/user-service/user.service";
-import {updateSuperClassAbstractMembersContext} from "@angular/core/schematics/migrations/static-queries/strategies/usage_strategy/super_class_context";
 
 @Component({
   selector: 'app-outgoing-requests',
